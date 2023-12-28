@@ -1,0 +1,237 @@
+.formd{
+    background: white !important;
+    width: auto !important;
+    margin-top: 0px !important;
+}
+
+/* Estilos generales */
+/* .containerss {
+    max-width: 1900px;
+    padding: 20px;
+  }
+   */
+  /* Estilo para que todos los campos de entrada tengan el mismo ancho */
+  .same-width {
+    width: 100%;
+  }
+  
+  /* Estilo para separar los campos de latitud y longitud */
+  .d-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Estilo para el botón de guardar */
+  .btn-primary {
+    width: 100%;
+  }
+  
+  /* Agregar otros estilos según tus necesidades */
+  .colortxt{
+    color: #06543C;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 0px;
+    margin-left: 0px;
+  }
+  /* .paddsss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+  } */
+  .inptt{
+border-radius: 30px;
+padding-top: 15px;
+padding-bottom: 15px;
+border: none;
+background-color: #F0F9EC;
+  }
+  .stcord{
+    width: 70% !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+  .txtlabel{
+    color: #012C1E;
+    font-weight: bold;
+  }
+  .pimg{
+    padding-bottom: 10px;
+  }
+  .pimgg{
+    padding-bottom: 14px;
+  }
+  .btnst{
+background-color:#F5A301;
+color: white;
+font-weight: bold;
+font-size: 25px;
+width: 70%;
+border-radius: 30px;
+  }
+  .mrg{
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  .foot{
+    background-color: #012C1E;
+    width: 100%;
+    height: 80px;
+    margin-top: 80px;
+  }
+  .foott{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+  }
+  .imgfoot{
+    margin-left: 40px;
+    cursor: pointer;
+    width: 20px;
+    margin-right: 20px;
+  }
+.inptbuscador{
+    width:100%;
+    border-radius: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* box-shadow: 3px 5px 50px rgba(216, 215, 215, 0.925); */
+    line-height: 0%;
+    background-color: #F0F9EC;
+    border:0;
+    margin-left: 20px;
+}
+.btninsert{
+    background-color: #06543C;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 180px;
+    border-radius: 30px;
+    border: 0;
+    margin-left: 20px;
+}
+.mgtablaAd{
+  margin-top: 20px;
+}
+.clnon{
+    justify-content: start !important;
+    margin-top: 20px;
+}
+.stylebtntable{
+  width:30px ;
+  cursor: pointer;
+}
+.selectstyle{
+border: 0;
+width: 100%;
+text-align: center;
+background-color: white;
+border-radius: 30px;
+padding-top: 15px;
+padding-bottom: 15px;
+background-color: #F0F9EC;
+}
+/* cssnewwwwwwwwwwwwwwwwwwwwww */
+.texthedert{
+  color: #46967F;
+}
+.txtcolortd{
+  color: #06543C;
+  position: sticky !important;
+
+}
+.ftsdm{
+  font-size: 20px;
+  font-weight: bold;
+}
+.bajanda{
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  padding-left:0px;
+}
+.borderaccion{
+  box-shadow:1px 1px 1px 1px rgba(216, 215, 215, 0.5);
+  display: inline-block;
+  align-items:center;
+}
+.padtn{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.cursorpt{
+  cursor: pointer;
+}
+.sizeicon{
+  width: 70%;
+  padding-left: 5px;
+}
+.justend{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.iconnavst{
+  width: 50px;
+  cursor: pointer;
+}
+.iconnavsts{
+  width: 50px;
+}
+.iconnavsta{
+  width: 40px;
+}
+.barrafija{
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  background-color: white;
+}
+.posi{
+  position: sticky;
+  z-index: 3000;
+}
+.over{
+  max-height: 100vh; 
+  overflow-y: auto; 
+  overflow-x: auto; 
+}
+/* CSS CREATE--- UPDATE-------------------------- */
+.divalmacen{
+  position: relative;
+  width: 100%;
+  height:40vh;
+  background-size: cover;
+  background-position: center;
+}
+.mrgt{
+padding-top: 135px;
+}
+.padintext{
+  padding-top: 80px;
+  font-size: 20px;
+  font-weight: bold;
+  color:#012C1E;
+}
+.fontpar{
+  font-size:x-large;
+  font-weight: bold;
+}
+.mgconti{
+  margin-top: 180px;
+}
+.padtp{
+  padding-top: 55px;
+}
+.textdest{
+  color: #F5A301;
+  padding-top:68px ;
+  font-size:18px;
+  font-weight: bold;
+  cursor: pointer;
+}

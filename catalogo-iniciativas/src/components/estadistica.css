@@ -1,0 +1,39 @@
+.margintpdiagram{
+   padding-top: 20px;
+}
+.texttosstyles{
+    font-weight: bold;
+    color: #46967F;
+    padding-bottom: 15px;
+}
+.texttotalgraf{
+    color: #06543C;
+    padding-bottom: 25px;
+    margin-top: 20px;
+}
+.selectgraf{
+border: none;
+background-color: #F0F9EC;
+border-radius: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+width: 35%;
+text-align:center;
+}
+.pdbottomc{
+    padding-bottom: 20px;
+}
+.despega{
+    padding-bottom: 40px;
+}
+@media (max-width: 790px) {
+    .selectgraf{
+        border: none;
+        background-color: #F0F9EC;
+        border-radius: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 60%;
+        text-align:center;
+        }
+  }

@@ -1,0 +1,471 @@
+/* @import url("https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"); */
+/* #map { width: 50%; height: 580px; } */
+.stSearch{
+width: 50%;
+border-radius: 10px;
+border: 0;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+.number{
+background-color:#012c1e !important ;
+color: white;
+font-size: 25px;
+border-radius:2px ;
+width: 70px;
+display: flex;
+justify-content: center !important;
+margin: 0 auto; /* cebtrar div dentro de otro  */
+height:38px;
+margin-top:30px;
+}
+
+.andale{
+  padding-top: 81px !important; 
+}
+.list-group-item{
+    border: none;
+}
+/* .ovhidden{
+overflow:scroll hidden ;
+} */
+.row{
+margin-right: 0%;
+}
+.pad_list{
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.list-group {
+  border-radius: 0.60rem;
+  color: #012c1e;
+  font-weight: bold;
+}
+.btnVt{
+margin-top: 20px;
+margin-bottom: 20px;
+display: flex;
+justify-content: center;
+color: #F5A301;
+font-size: x-large;
+}
+.stbtn{
+    border-radius: 500px;
+    background-color: #012c1e;
+    color: white;
+    text-align: center;
+    box-shadow: none !important;
+    width: 180px;
+    font-size: 14px;
+    display: flex;
+    margin: 0% auto;
+    padding-top:10px;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+    white-space: normal;
+    height: 30px;
+    justify-content: center;
+    border: none;
+}   
+ .mapa{
+     height:100% !important;
+     width: 100% !important;
+     margin-left: 0px;
+     border-bottom-right-radius: 10px;
+     position: fixed;
+     /* z-index: 1; */
+     /* width: 100%; */
+    }
+  .cardst{
+    width: 15rem;
+  }
+  .padrcard{
+    padding-top: 50px;
+  }
+  .centert{
+    margin: 0% auto;
+    text-align: center;
+  }
+  .lgcasacard{
+    border-radius: 500px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    margin: 0% auto;
+    background-color: #E6FFDB;
+    align-items: center;
+    margin-top: -30px;
+  }
+  .icon{
+    width: 40px;
+    height: 30px;
+  }
+  .card{
+    border-radius: 40px;
+    }
+    .padcol{
+        padding-left: 0px;
+    }
+    .card-img-top {
+      border-top-left-radius: 40px;
+      border-top-right-radius: 40px;
+  }
+.hgimg{
+  height: 130px;
+}
+.fntsz{
+  font-size:small ;
+  font-weight: bold;
+  margin-top: -10px;
+}
+.card-text{
+  font-size: small;
+  color: #75b99a;
+  margin-top: -12px;
+}
+.fincdest{ 
+  font-size:30px;
+  font-weight: bold;
+  padding-top: 60px;
+}
+.footers{
+  background: linear-gradient(to right,#46967f,#9bd580);
+  padding-top: 20px;
+  margin-top: 100px;
+}
+.inl{
+  display: flex inline-block !important;
+}
+@media screen and (max-width: 991px) {
+  .col-sm-6 {
+    width: 100%;
+  }
+}
+
+.centrado{
+ display: flex;
+ justify-content: center;
+}
+.lgs{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 100%;
+  border-radius: 300px;
+  margin-left: 5px;
+  margin-right: 5px;
+  line-height: 0%;
+  border: 0;
+  background-color: #F0F9EC;
+}
+.lgsi{
+  margin-top: 20px !important;
+  width: 20px !important;
+  height: 20px !important;
+
+}
+
+.bglinera{
+  background: linear-gradient(to right,#d4e6e1,#e6f4e1);
+
+}
+.elemento{
+  position: absolute;
+}
+.imgAside{
+  width: 32px;
+  margin-right: 5px;
+  margin-bottom: 7px;
+  height: 25px;
+}
+/* @media (max-width: 991px) {
+.dnon{
+
+}
+
+} */
+@media (min-width: 991px) {
+  .dactive {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  /* Muestra la barra de búsqueda solo en pantallas de 991 píxeles o menos */
+  .search-active {
+    display: block !important; /* Usa !important para asegurar que prevalezca sobre otros estilos */
+  }
+}
+.styleAside{
+border-radius: 10px;
+width: 100%;
+}
+.fonszp{
+  font-size: 25px;
+  color: #06543C;
+  padding-left: 25px;
+}
+.fonszp1{
+  font-size: 25px;
+  color: #06543C;
+  padding-left: 0px;
+}
+
+
+.prueba{
+  margin-left: 100px !important;
+}
+
+
+.clsbtn{
+  cursor: pointer;
+  margin-left: -20px;
+}
+.colaside{
+margin-left:60px;
+margin-right:60px ;
+border-radius: 10px;
+width: 70%;
+}
+.scrollableList {
+  max-height: 87vh;
+  width: 100%; /* Ajusta la altura máxima según tus necesidades */
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: white;
+}
+.tarjeta{
+  background-color:#F0F9EC ;
+  margin-bottom: 12px;
+  padding: 10px;
+  margin-right: 40px;
+  border-radius: 10px;
+}
+.lnone{
+  list-style: none;
+  color: #012c1e;
+  font-size:large;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+.imglist{
+  width: 22px;
+  height: 15px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.txtlist{
+  color: #06543C;
+  font-size: 16px;
+  opacity: initial;
+  list-style: none;
+}
+.strg{
+  font-size:xx-large;
+  color: #012c1e;
+  margin-left:0px;
+  margin-bottom: 5px;
+}
+.menuDesplegadoContent{
+  background-color:white ;
+  width: 100%;
+}
+
+.tableContainer {
+  position: relative;
+}
+
+.stbclose{
+margin-left:0;
+cursor: pointer;
+}
+.menuDesplegadoContent ul.scrollableList::-webkit-scrollbar {
+  width: 30px;
+}
+
+.menuDesplegadoContent ul.scrollableList::-webkit-scrollbar {
+  width: 12px;
+}
+
+.menuDesplegadoContent ul.scrollableList::-webkit-scrollbar-thumb {
+  background-color: #75b99a;
+  border-radius: 6px;
+}
+
+.menuDesplegadoContent ul.scrollableList {
+  scrollbar-width: thin; /* Para navegadores Firefox */
+}
+
+.menuDesplegadoContent ul.scrollableList::-webkit-scrollbar {
+  width: 10px;
+}
+
+.menuDesplegadoContent ul.scrollableList::-webkit-scrollbar-thumb {
+  background-color:#75b99a;
+  border-radius: 6px;
+}
+.txtdnone{
+  font-weight: bold;
+  text-decoration: none;
+  color: #012c1e !important;
+}
+/* CSS newww---------------------------------------- */
+.alinedivt{
+  display: flex;
+  justify-content: start;
+}
+.base{
+  background-color: #F0F9EC;
+  width: 100%;
+  padding-top: 40px;
+}
+.txth1{
+  color: #012c1e ;
+  font-weight: bolder;
+  font-size:x-large;
+  text-align: center;
+  padding-bottom:20px ;
+}
+.center{
+  display: flex;
+  justify-content:center !important;
+  align-items: center;
+}
+.divsi{
+  width: 100%;
+}
+.txtcenter{
+  text-align: center !important;
+}
+.end{
+  display: flex;
+  justify-content:start;
+  align-items: center;
+}
+.bgtd{
+ background-color:#F5A301 ;
+ border-bottom-left-radius: 20px;
+ border-top-left-radius: 20px;
+ margin-bottom: 10px;
+ padding-left: 15px;
+ padding-top: 0px;
+ font-size: x-large;
+ font-weight: bold;
+ color: white;
+  }
+  .bgtd1{
+    background-color:#F5A301 ;
+    margin-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 25px;
+    padding-top: 0px;
+    font-size: x-large;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    /* padding-right: 40px;
+    padding-left: 20px; */
+    font-weight: bold;
+    color: white;
+     }
+     /* Estas son las clases a poner y quitar en dependencia */
+.fontcolor{
+ color: #06543C; 
+ margin-bottom: 10px;
+ padding-left: 15px;
+ font-size: x-large;
+ /* display: flex !important;
+ justify-content: start !important;
+ text-align: start !important; */
+}
+    .padb{
+      padding: 20px;
+    }
+     .shadowdiv{
+  float: left;
+  box-shadow: -5px 0 6px -5px rgba(0, 0, 0, 0.1);
+     }
+    .tablemap{
+    width: 100%;
+    }
+    .base{
+ height: auto;
+    }
+    .padim{
+      padding-left: 120px;
+    }
+    .iconexcelmap{
+      width: 43px;
+cursor: pointer;
+    }
+    .indice{
+      z-index: 1000;
+    }
+    .mgmapa{
+      padding-left: 0px;
+      margin: 0 !important;
+    }
+    .botonColapse{
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      position: fixed;
+      top: 50%;
+      left: 60.8%;
+      transform: translate(-50%, -50%);
+      z-index: 9999;
+      width: 2%;
+    }
+    .botonColapseall{
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      position: fixed;
+      top: 50%;
+      right: 95.5%;
+      transform: translate(-50%, -50%);
+      z-index: 9999;
+      width: 2%;
+    }
+    .coloresmap{
+      color: #06543C;
+    }
+
+    /* ----------------------Responsive MAPA */
+    @media (max-width: 991px) {
+      
+    }
+
+    /* estilitos del searchbra */
+    .search-container {
+      position: relative;
+    }
+    .map-container {
+      position: relative;
+    }
+    
+    .leyenda {
+      position: absolute;
+      top: 0px;
+      left: 60px;
+      z-index: 1000;
+      font-weight: bold;
+      background-color:none;
+      padding: 0px;
+    }
+    .iconleyenda{
+      color: #06543C;
+      font-size: large;
+    }
+    .iconleyenda1{
+      color: #F5A301 !important;
+      font-size: large;
+    }
+    .leyendaicon{
+      width: 19.5%;
+    }
+    .leyendaicon1{
+      width: 15%;
+    }

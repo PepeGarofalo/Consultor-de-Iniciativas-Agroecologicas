@@ -1,0 +1,57 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containform{
+  background-color: #F0F9EC;
+  height: 100vh;
+}
+
+.btStyle{
+  margin-top: 60px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  width:35%;
+  border: 0;
+  color:white;
+  background-color: #F5A301;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-weight: bold;
+}
+.txt{
+  color:#46967F;
+  margin-top: 4px;
+}
+.inpt{
+  border-radius:100px;
+  width: 60%;
+  border: 0;
+  background-color: #CFEBC2;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.medidaslogo{
+  width: 60%;
+}
+.divnm{
+  width: 50%;
+  display: flex;
+  justify-content: start !important;
+}
+.margincont{
+ padding-top: 200px;
+}
+.mgtp{
+margin-top: 12px;
+}
+.pdimg{
+margin-left:-12px !important ;
+width: 67.2%;
+height:100vh;
+
+}
+.pasing{
+  padding-bottom: 20%;
+}
